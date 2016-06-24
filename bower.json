@@ -1,0 +1,31 @@
+{
+  "name": "ajax",
+  "description": "Storage Assets Library",
+  "main": "src/ajax.js",
+  "authors": [
+    "longjia <longjiarun@qq.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/longjiarun/ajax.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "ajax"
+  ],
+  "moduleType": ["commonjs"],
+  "homepage": "",
+  "private": false,
+  "ignore": [
+    ".editorconfig",
+    ".gitignore",
+    ".npmignore",
+    "node_modules",
+    "bower_components",
+    "demo",
+    "build",
+    "test",
+    "server.js"
+  ],
+  "dependencies": {}
+}
