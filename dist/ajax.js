@@ -3,7 +3,7 @@
     var ajax = function(opts) {
         var xhr = new XMLHttpRequest()
 
-        xhr.open(opts.type || 'GET', opts.url, true)
+        xhr.open(opts.type.toUpperCase() || 'GET', opts.url, true)
 
         xhr.onreadystatechange = function() {
             if (xhr.readyState == 4) {
