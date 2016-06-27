@@ -15,7 +15,7 @@
             }
         }
 
-        var xhrFields = opts.xhrFields
+        var xhrFields = opts.xhrFields,name
         if (xhrFields) {
             for (name in xhrFields) xhr[name] = xhrFields[name]
         }
